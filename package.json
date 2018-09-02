@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Bootstrap4 newbie",
   "main": "index.js",
+  "homepage": "https://samallangi.github.io/bootstrap4",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Samang",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
   }
 }
