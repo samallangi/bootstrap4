@@ -6,7 +6,7 @@
   "homepage": "https://samallangi.github.io/bootstrap4",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "master -d dist"
   },
   "author": "Samang",
   "license": "ISC",
